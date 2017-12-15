@@ -126,12 +126,14 @@ class Sport:
 
 
         for act_ident, act_path in enumerate(os.listdir(path)):
-            if (act_ident >= amountActs):print("break due to act"); break           #< threshold
             newPath = path + str("/") + act_path
+            if (False == os.path.isdir(newPath) or act_ident >= amountActs):
+                print("break due to act"); break           #< threshold
 
             for pers_ident, pers_path in enumerate(os.listdir(newPath)):
-                if (pers_ident >= amountPers): print("break due to pers"); break    #< threshold
                 newestPath = newPath + str("/") +pers_path
+                if (not os.path.isdir(newestPath) or (pers_ident >= amountPers)):
+                    print("break due to pers"); break    #< threshold
 
                 for seg_ident, seg_path in enumerate(os.listdir(newestPath)):
                     if (seg_ident >= amountSegs): print("break due to sek"); break; #< threshold

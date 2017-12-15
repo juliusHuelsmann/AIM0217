@@ -116,6 +116,9 @@ cp data/* /mnt/data/repos/AIM0217/01_exploreData/raw/sports -r
 ### b) otherwise
 `./quickSetup.sh`
 
+In case you have set up the pip packages for python2, exeucte 
+`./quickSetupPython2.sh`
+
 
 
 ## 2.  spark 
