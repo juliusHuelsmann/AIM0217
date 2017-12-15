@@ -98,7 +98,7 @@ located in the same directory.
 
 ## 1.  Exploration and data gathering
 1. Download the [Dataset](https://archive.ics.uci.edu/ml/datasets/Daily+and+Sports+Activities)
-and unpack it into the following [00_documentation/raw/sports](00_documentation/raw/sports) directory. 
+and unpack it, move the content of the `data` folder into [01_exploreData/raw/sports](01_exploreData/raw/sports) directory. 
 
 ### a) Do you want to have a look on our data exploration? 
 1. launch the jupyter notebook, open the file
