@@ -90,7 +90,7 @@ or ..
 
 
 # 1 Exploring data
-[This file 01_exploreData/Sports.ipynb](01_exploreData/Sports - Data exploration generation and inital analys.ipynb)  contains 
+[This file 01_exploreData Sports.ipynb](01_exploreData/Sports - Data exploration generation and inital analys.ipynb)  contains 
 our initial exploration analysis on the sports dataset. Download and setup
 instructions are provided. The referenced python script containing code is
 located in the same directory.  
