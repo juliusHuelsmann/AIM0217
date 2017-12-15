@@ -103,7 +103,7 @@ located in the same directory.
 
 ## 1.  Exploration and data gathering
 1. Download the [Dataset](https://archive.ics.uci.edu/ml/datasets/Daily+and+Sports+Activities)
-and put it into the following [00_documentation/raw](00_documentation/raw/sports) directory. 
+and put it into the following [00_documentation/raw/sports](00_documentation/raw/sports) directory. 
 
 ### a) Do you want to have a look on our data exploration? 
 1. launch the jupyter notebook, open the file
