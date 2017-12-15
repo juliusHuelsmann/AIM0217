@@ -44,8 +44,8 @@ if __name__ == "__main__":
     # we create a model with random clusters and specify the number of clusters 
     # to find timeUnit = batches is the correct choice for the problem we 
     #  are currently investigating
-    model = StreamingKMeans(k=amountClusters, decayFactor=0.5, timeUnit="batches")
-    .setRandomCenters(45, 1.0, 0) #< dim, weight, seed
+    model = StreamingKMeans(k=amountClusters, decayFactor=0.5, timeUnit="batches") \
+    				.setRandomCenters(45, 1.0, 0) #< dim, weight, seed
     modelOut = open( "../01_exploreData/out/check/models.txt", "w" )
     operator = OperatorImpl(model) #< contains our implementation of 
                                    #  specific operators for
