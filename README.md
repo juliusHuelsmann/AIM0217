@@ -88,11 +88,6 @@ or ..
 ... can be found inside  the [`00_documentation`](00_documentation) folder.
 
 
-```bash
-cd 02_pyspark
-spark-submit main2.py
-```
-
 
 # 1 Exploring data
 [This file 01_exploreData/Sports.ipynb](01_exploreData/Sports - Data exploration generation and inital analys.ipynb)  contains 
