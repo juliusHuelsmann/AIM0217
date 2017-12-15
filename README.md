@@ -99,6 +99,13 @@ located in the same directory.
 ## 1.  Exploration and data gathering
 1. Download the [Dataset](https://archive.ics.uci.edu/ml/datasets/Daily+and+Sports+Activities)
 and unpack it, move the content of the `data` folder into [01_exploreData/raw/sports](01_exploreData/raw/sports) directory. 
+```bash
+
+cd ~
+cd Downloads
+unzip data.zip
+cp data/* /mnt/data/repos/AIM0217/01_exploreData/raw/sports -r
+```
 
 ### a) Do you want to have a look on our data exploration? 
 1. launch the jupyter notebook, open the file
