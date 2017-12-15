@@ -88,14 +88,9 @@ or ..
 ... can be found inside  the [`00_documentation`](00_documentation) folder.
 
 
-```bash
-cd 02_pyspark
-spark-submit main2.py
-```
-
 
 # 1 Exploring data
-[This file (01_exploreData/Sports.ipynb)](01_exploreData/Sports - Data exploration generation and inital analys.ipynb)  contains 
+01_exploreData/Sports - Data exploration generation and inital analys.ipynb  contains 
 our initial exploration analysis on the sports dataset. Download and setup
 instructions are provided. The referenced python script containing code is
 located in the same directory.  
@@ -103,7 +98,7 @@ located in the same directory.
 
 ## 1.  Exploration and data gathering
 1. Download the [Dataset](https://archive.ics.uci.edu/ml/datasets/Daily+and+Sports+Activities)
-and put it into the following [00_documentation/raw](00_documentation/raw/sports) directory. 
+and unpack it into the following [00_documentation/raw/sports](00_documentation/raw/sports) directory. 
 
 ### a) Do you want to have a look on our data exploration? 
 1. launch the jupyter notebook, open the file
