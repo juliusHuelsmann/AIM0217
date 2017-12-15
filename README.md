@@ -108,7 +108,8 @@ cp data/* /mnt/data/repos/AIM0217/01_exploreData/raw/sports -r
 ```
 
 ### a) Do you want to have a look on our data exploration? 
-1. launch the jupyter notebook, open the file
+1. launch the jupyter notebook (e.g. `jupyter-notebook`), open the jupyter
+   notebook in the 01_exploreData directory 
 2. Execute at least the loading of the data and the export of the data to be
    used by spark. 
 
