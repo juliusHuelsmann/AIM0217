@@ -30,8 +30,11 @@ if __name__ == "__main__":
     # is attached to the local FS.
     # Data is stored as Picled (serializer) objects in RDD[Array[Byte]]
     sc  = SparkContext("local[*]", "localKMeans", pyFiles=[])
+    
     ssc = StreamingContext(sc, batchDuration=1)
     sc.setLogLevel("INFO")
+  
+    images = sc.textFile(args.images).map(lambda ln: [int(x) for x in ln.split(',')])
 
     # Load test and train files directly from python script output.
     # In case no data can be found, have a look at 
